@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('background\ .jpg') no-repeat center center fixed;
+    background: url('anime\ .jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Arial, sans-serif;
 }
@@ -84,3 +84,4 @@ body {
     color: #888;
     margin-top: 18px;
 }
+
