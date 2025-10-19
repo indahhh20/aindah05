@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Slider Tugas</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tugas Web - One Page Scroll</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-  <h1>Geser untuk melihat Tugas</h1>
-  <div class="slider">
-    <iframe src="tugas1/index.html"></iframe>
-    <iframe src="tugas2/index.html"></iframe>
-    <iframe src="tugas3/index.html"></iframe>
-    <iframe src="tugas4/index.html"></iframe>
-  </div>
+    <header class="sticky-header">
+        <h1>Portfolio Tugas Web Saya</h1>
+        <nav>
+            <a href="#tugas1">Tugas 1</a>
+            <a href="#tugas2-float">Tugas 2 Float</a>
+            <a href="#tugas3">Tugas 3</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="tugas1" class="task-section">
+            <h2>Tugas 1: Judul Tugas Anda</h2>
+            <iframe src="tugas1/index.html" frameborder="0" loading="lazy"></iframe>
+        </section>
+
+        <section id="tugas2-menu" class="task-section">
+            <h2>Tugas 2: Latihan CSS Display & Float (Multiple Files)</h2>
+            
+            <h3 id="tugas2-float">Tugas 2.1: Latihan Float (Cat & Dog)</h3>
+            <iframe src="tugas2/latihan-float.html" frameborder="0" loading="lazy"></iframe>
+            
+            <h3 id="tugas2-display-block">Tugas 2.2: Latihan Display Block</h3>
+            <iframe src="tugas2/latihan-display-block.html" frameborder="0" loading="lazy"></iframe>
+
+            </section>
+
+        <section id="tugas3" class="task-section">
+            <h2>Tugas 3: Judul Tugas Anda</h2>
+            <iframe src="tugas3/index.html" frameborder="0" loading="lazy"></iframe>
+        </section>
+
+        </main>
+    
+    <footer>
+        <p>&copy; 2025 Kumpulan Tugas Web Saya</p>
+    </footer>
 </body>
 </html>
